@@ -87,7 +87,6 @@ let imgAddress =
   "https://theportablewife.com/wp-content/uploads/best-places-to-take-pictures-in-paris-newfeatured.jpg";
 
 let img = document.getElementById("my-img");
-console.log(img);
 
 img.src = imgAddress;
 let div = document.getElementById("myDiv");
@@ -99,3 +98,11 @@ function outputConsole() {
   let text = "I love Javascript";
   console.log(text);
 }
+
+let num = Math.random() * 19; // 0 - 18.999
+let roundedNum = Math.floor(num + 2);
+console.log(roundedNum);
+
+let num2 = Math.random() * 10; // 0 - 9.999
+let roundedNum2 = Math.ceil(num2 + 5);
+console.log(roundedNum2);
