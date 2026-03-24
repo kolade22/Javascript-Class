@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Dark Mode Selector</h1>
+    <button onclick="changeMode()">Switch Mode</button>
+  </body>
+</html>
+<script>
+  function changeMode() {
+    let body = document.body;
+    if (body.style.backgroundColor === "black") {
+      body.style.backgroundColor = "white";
+      body.style.color = "black";
+    } else {
+      body.style.backgroundColor = "black";
+      body.style.color = "white";
+    }
+  }
+</script>
